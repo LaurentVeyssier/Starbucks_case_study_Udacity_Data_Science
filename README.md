@@ -25,7 +25,9 @@ Our analysis shows that, while the promotion has a statistical effect on the pur
 
 We then train a Classification model using the provided features to predict whether the customer will purchase the promotion or not. Using this model, we fine-tune our promotion strategy to target this customer segment (based on classification model purchase prediction). Using this strategy, we end up outperforming the benchmark using a random forest model on the unseen test set.
 
-![Confusion Matrix Random Forest Model on 20% of the train set reserved for validation](assets/confusionmatrix.png)
+Confusion Matrix from Random Forest Model on 20% of the train set reserved for validation:
+
+![](assets/confusionmatrix.png)
 
 The ultimate objective of the promotion strategy is to :
 - reduce false negatives so that to send the promotion to all customers willing to buy the promotion
