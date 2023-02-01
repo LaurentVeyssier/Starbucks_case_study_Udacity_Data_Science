@@ -19,11 +19,11 @@ Detailed instructions are provided in the notebook.
 
 # Project structure
 
-We first perform hypothesis testing on the invariant variable and then the 2 evaluation metrics.
+We first perform hypothesis testing on the invariant metric and then on the 2 evaluation metrics.
 
 Our analysis shows that, while the promotion has a statistical effect on the purchase rate (vs control group), it does not generate extra revenues: the incremental sales are marginal and more than compensated by the promotion costs. As such the promotion should not be repeated.
 
-We then train a Classification model using the provided features to predict whether the customer will purchase the promotion or not. Using this model, we fine-tune our promotion strategy to target this customer segment (based on classification model purchase prediction). Using this strategy, we end up outperforming the benchmark using a random forest model on the unseen test set.
+We then train a Classification model using the provided features to predict whether the customer will purchase the promotion or not. Using this model, we fine-tune our promotion strategy to target this customer segment (based on classification model prediction). Using this strategy, we end up outperforming the benchmark using a random forest model on the unseen test set.
 
 Confusion Matrix from Random Forest Model on 20% of the train set reserved for validation:
 
@@ -34,4 +34,4 @@ The ultimate objective of the promotion strategy is to :
 - reduce false positive so that to minimize promotion costs
 
 
-A special attention is given during the modeling phase to the highly imbalanced dataset (very few purchase class). Augmentation techniques are applied, several models are tested including imblearn models specifically designed to handle such situation. Detailed model performances are recorded in the notebook.
+Special attention is given during the modeling phase to the highly imbalanced dataset (very few purchase class). Augmentation techniques are applied, several models are tested including imblearn models specifically designed to handle such situation. Model performances are recorded in the notebook for comparision purpose.
