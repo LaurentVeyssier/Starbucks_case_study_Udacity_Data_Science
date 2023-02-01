@@ -34,4 +34,4 @@ The ultimate objective of the promotion strategy is to :
 - reduce false positive so that to minimize promotion costs
 
 
-A special attention is given to the highly imbalanced dataset (very few purchase class).
+A special attention is given during the modeling phase to the highly imbalanced dataset (very few purchase class). Augmentation techniques are applied, several models are tested including imblearn models specifically designed to handle such situation. Detailed model performances are recorded in the notebook.
