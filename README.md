@@ -3,7 +3,7 @@ Case study from UDACITY Data Scientist Nanodegree
 
 # Context
 
-This case study is part of UDACITY [DATA SCIENTIST]() Nanodegree. It deals with a Starbucks promotion activity to increase Sales.The dataset contains control and experiment groups data capture (85.000 customer records). For each customer, a total of 7 unknown features are also provided.
+This case study is part of UDACITY [DATA SCIENTIST]() Nanodegree. It deals with a Starbucks promotion activity to increase Sales.The train dataset contains control and experiment groups (85.000 customer records). For each customer, a total of 7 unknown features are also provided.
 
 # Objective
 
